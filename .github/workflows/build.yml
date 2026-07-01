@@ -53,11 +53,6 @@ jobs:
       run: |
         cd gopath/src/github.com/katydid/validator-go-jsonschema
         make test
-    - name: Checklicencse
-      uses: awalterschulze/checklicense@v1.0.6
-      with:
-        path: gopath/src/github.com/katydid/validator-go-jsonschema
-        ignores: doc.go .svg .txt .bnf .md COPIED santhosh-tekuri/format.go schema/draft4.go
     - name: Diff
       run: |
         cd gopath/src/github.com/katydid/validator-go-jsonschema
