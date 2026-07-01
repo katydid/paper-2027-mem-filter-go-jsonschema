@@ -28,6 +28,10 @@ This project translates JSON Schema to a regular hedge grammar and then executes
 
 * Draft4 (excluding `uniqueItems` and `remoteRef`)
 
+Running tests requires cloning:
+* JSON Schema Test Suite https://github.com/json-schema-org/JSON-Schema-Test-Suite to `./src/github.com/json-schema-org/JSON-Schema-Test-Suite`, where `.` is the same `.` as in `./src/github.com/katydid/paper-2027-mem-filter-go-jsonschema`, where we expect this repo to be cloned to, so the relative folder would be `../../../../src/github.com/json-schema-org/JSON-Schema-Test-Suite`.
+* JSON Schema Benchmarks https://github.com/katydid/paper-2027-mem-filter-benchmarks-jsonschema to `./src/github.com/katydid/validator-jsonschema-benchmarks`, where `.` is the same `.` as in `./src/github.com/katydid/paper-2027-mem-filter-go-jsonschema`, where we expect this repo to be cloned to, so the relative folder would be `../../../../src/github.com/katydid/validator-jsonschema-benchmarks`.
+
 ## Unsupported
 
 * [uniqueItems](./decisions/uniqueItems.md)
