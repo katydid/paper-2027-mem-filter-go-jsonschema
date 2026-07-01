@@ -3,6 +3,8 @@
 JSON Schema in Go using Katydid underlying algorithm.
 This project translates JSON Schema to a regular hedge grammar and then executes validation via Katydid's [validator-go](github.com/katydid/validator-go).
 
+This repo is a clone of https://github.com/katydid/validator-go-jsonschema at 735eef68b056e60543c691a55279ba955c580d6f
+
 ## Usage Example
 
 ```go
