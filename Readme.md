@@ -1,4 +1,4 @@
-# Json Schema using Brzozowski's derivatives
+# Memoized Derivatives for Fast Filtering and Schema Validation of Semi-Structured Data (JSON Schema Go)
 
 JSON Schema in Go using Katydid underlying algorithm.
 This project translates JSON Schema to a regular hedge grammar and then executes validation via Katydid's [validator-go](github.com/katydid/validator-go).
